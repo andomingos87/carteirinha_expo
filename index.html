@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carteirinha Digital Eixo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <!-- Frente da carteirinha -->
+                <div class="card-front">
+                    <div class="logo">
+                        <img src="assets/logo.svg" alt="Logo Eixo">
+                    </div>
+                    <div class="photo-container">
+                        <img src="assets/user.png" alt="Foto do Associado" class="photo">
+                    </div>
+                    <div class="info">
+                        <h2 class="name">Nome do Associado</h2>
+                        <p class="company">Empreendimento: Embu das Artes</p>
+                    </div>
+                    <div class="qr-container">
+                        <img src="assets/qr-pix.svg" alt="QR Code PIX" class="qr-code">
+                        <p>QR Code PIX</p>
+                    </div>
+                </div>
+                
+                <!-- Verso da carteirinha -->
+                <div class="card-back">
+                    <div class="back-content">
+                        <h2>Presença em Reuniões</h2>
+                        <div class="qr-container-back">
+                            <img src="assets/qr-presenca.svg" alt="QR Code Presença" class="qr-code">
+                            <p>Escaneie para marcar presença</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="flip-button" class="flip-button">Girar Carteirinha</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
