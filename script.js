@@ -70,4 +70,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Verifica a orientação ao carregar e ao redimensionar
     window.addEventListener('load', adjustOrientation);
     window.addEventListener('resize', adjustOrientation);
-}); 
+});
